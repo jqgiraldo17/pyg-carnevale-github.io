@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Carnevale</title>
+</head>
+<body>
+    <div>
+    <form method="GET" action="action.php">
+        Nombre: <input type ="text" name="nombre">
+        Apellido: <input type="text" name="apellido">
+        Fecha de nacimiento: <input type="date" name="nacimiento">
+        Género: <br>
+        <input type="radio" name="genero" value="masculino">Masculino<br>
+        <input type="radio" name="genero" value="femenino">Femenino<br>
+        <input type="radio" name="genero" value="otro">Otro<br>
+        Ciudad de residencia: <br>
+        <select>
+            <option value="bello" name="ciudad" value="bello">Bello</option>
+            <option value="copacabana" name="ciudad" value="copacabana">Copacabana</option>
+            <option value="envigado" name="ciudad" value="envigado">Envidago</option>
+            <option value="estrella" name="ciudad" value="estrella">La Estrella</option>
+            <option value="medellin" name="ciudad" value="medellin">Medellin</option>
+            <option value="sabaneta" name="ciudad" value="sabaneta">Sabaneta</option>
+        </select>
+
+        Correo electr&oacute;nico: <input type="email" name="carousel-control-next-icon" required>
+        Contraseña: <input type="password" min="5" name="contraseña">
+        <input type="submit" value="¡Registrarse!"">
+        <input type="reset" value="Borrar todo">
+
+    </form>
+    </div>
+    
+</body>
+</html>
