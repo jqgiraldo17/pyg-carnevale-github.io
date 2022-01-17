@@ -10,51 +10,67 @@
 </head>
 <body>
   <header>
-    <button>Men&uacute;</button>
-    <nav>
-      <ul class="menu menu--background">
-        <li><a href="index.html"><img src="./images/carnevaleLogo.jpg" id="logo"></a></li>
-        <li class="menu__button"><a href="index.html">Home</a></li>
-        <li class="menu__button menu__button--arrow">Nuestros Productos
-          <div class="dropdown-container">
-            <ul>
-              <li><a href="#">L&iacute;nea Institucional</a></li>
-              <li><a href="#">Seguridad Industrial</a></li>
-              <li><a href="#">Ferreter&iacute;a</a></li>                        
-              <li><a href="#">Servicios Carnevale</a></li>                        
-            </ul>
-          </div>
-        </li>
-        <li class="menu__button menu__button--arrow">Nosotros
-          <div class="dropdown-container">
-            <ul>
-              <li><a href="#">Misi&oacute;n</a></li>
-              <li><a href="#">Visi&oacute;n</a></li>
-              <li><a href="#">Valores Carnevale</a></li>                                                
-            </ul>
-          </div>
-        </li>
-        <li class="menu__button">
-          Cont&aacute;ctenos
-        </li>
-        <li class="menu__button menu__button--arrow format"><img src="./images/userLogo.png" style="height: 1.5rem; margin-right: 0.5rem;">Mi Cuenta
-          <div class="dropdown-container forma">
-            <ul>
-              <li>
-                <form action="" id="log">
-                  <input type="email" name="user" placeholder="Correo electr&oacute;nico" required><br>
-                  <br><input type="password" min="5" name="contraseña" placeholder="contraseña"><br>
-                  <br><input type="submit" value="Enviar"><br>
-                  ¿No tienes cuenta?
-                  <br><a href="registro.html">Reg&iacute;strate</a>
-                </form>
-              </li>
-            </ul>
-          </div>
-        </li>
-        
-      </ul>
-    </nav>
+    <nav class="principal">
+      <button>Men&uacute;</button>
+      <nav>
+        <ul class="menu menu--background">
+          <li><a href="index.html"><img src="./images/carnevaleLogo.jpg" id="logo"></a></li>
+          <li class="menu__button inicio"><a href="index.html">Home</a></li>
+          <li class="menu__button menu__button--arrow">Nuestros Productos
+            <div class="dropdown-container">
+              <ul>
+                <li><a href="#">L&iacute;nea Institucional</a></li>
+                <li><a href="#">Seguridad Industrial</a></li>
+                <li><a href="#">Ferreter&iacute;a</a></li>                        
+                <li><a href="#">Servicios Carnevale</a></li>                        
+              </ul>
+            </div>
+          </li>
+          <li class="menu__button menu__button--arrow">Nosotros
+            <div class="dropdown-container">
+              <ul>
+                <li><a href="#">Misi&oacute;n</a></li>
+                <li><a href="#">Visi&oacute;n</a></li>
+                <li><a href="#">Valores Carnevale</a></li>                                                
+              </ul>
+            </div>
+          </li>
+          <li class="menu__button">
+            Cont&aacute;ctenos
+          </li>
+          <li class="menu__button menu__button--arrow format"><img src="./images/userLogo.png" style="height: 1.5rem; margin-right: 0.5rem;">Mi Cuenta
+            <div class="dropdown-container forma">
+              <ul>
+                <li>
+                  <form action="" id="log">
+                    <p>Inicia sesi&oacute;n</p>
+                    <br><input type="email" name="user" placeholder="correo@hotmail.com" required><br>
+                    <br><input type="password" min="5" name="contraseña" placeholder="contraseña"><br>
+                    <br><input type="submit" value="Enviar" id="submit"><br>
+                    <br><p>¿No tienes cuenta?</p>
+                    <p><a href="registro.html">Reg&iacute;strate</a></p><br>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <li class="res-user"><img src="./images/userLogo.png" style="height: 1.5rem; margin-right: 0.5rem;">Mi Cuenta
+        <div class="dropdown-container formamin">
+          <ul>
+            <li>
+              <form action="" id="log">
+                <p>Inicia sesi&oacute;n</p>
+                <br><input type="email" name="user" placeholder="correo@hotmail.com" required><br>
+                <br><input type="password" min="5" name="contraseña" placeholder="contraseña"><br>
+                <br><input type="submit" value="Enviar" id="submit"><br>
+                <br><p>¿No tienes cuenta?</p>
+                <p><a href="registro.html">Reg&iacute;strate</a></p><br>
+            </li>
+          </ul>
+        </div>
+      </li>
+  </nav>
   </header>
   <div class="title">
     <!-- <h1><br>El carrito de compras que te ayuda a crecer</h1> -->
